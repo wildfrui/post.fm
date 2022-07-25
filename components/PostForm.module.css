@@ -1,8 +1,52 @@
 .post__form {
+  display: block;
+  width: 50vw;
+  margin: 0 auto;
+}
+
+.post__form span {
+  color: #de6b48;
+}
+.post__flexbox {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+}
+.post__title {
+  font-size: 36px;
+  font-family: "Montserrat";
+  margin-bottom: 30px;
 }
 .post__header {
-  width: 100%;
+  margin-bottom: 30px;
+}
+.post__header input {
+  font-size: 27px;
+}
+.post__header:after {
+  border-bottom: 2px solid #de6b48;
+}
+.post__text {
+  margin-bottom: 40px;
+}
+.post__text:after {
+  border-bottom: none;
+}
+.post__text:before {
+  border-bottom: none;
+}
+.post__text:hover:before {
+  display: none;
+}
+.post__button {
+  color: #fff;
+  background-color: #e5b181;
+  width: 150px;
+}
+.post__button span {
+  color: #fff;
+}
+.post__button:hover {
+  background-color: #eb4511;
 }
