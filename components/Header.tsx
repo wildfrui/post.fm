@@ -4,16 +4,20 @@ import Link from "next/link";
 
 const endpoints = [
   {
-    text: "Create a post",
-    href: "/create",
+    text: "Feed",
+    href: "/feed",
   },
   {
     text: "Profile",
     href: "/profile",
   },
   {
-    text: "Thoughts",
-    href: "/thoughts",
+    text: "Create",
+    href: "/create",
+  },
+  {
+    text: "Favorites",
+    href: "/favorites",
   },
   {
     text: "Messages",
