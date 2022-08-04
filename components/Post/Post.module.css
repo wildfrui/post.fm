@@ -1,0 +1,65 @@
+.container {
+  margin-top: 20px;
+  display: block;
+  width: 100%;
+  font-family: "Roboto";
+}
+
+.card {
+  border-radius: 15px;
+  box-shadow: none;
+}
+.content {
+}
+
+.author {
+  color: #000000;
+  margin-right: 20px;
+}
+.title {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 30px;
+  word-wrap: break-word;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.text {
+  display: block;
+  box-sizing: border-box;
+  color: #0f0d0f;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  width: 100%;
+  color: red !important;
+  margin: 0 auto;
+}
+
+.buttons button {
+  color: #595959;
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.user {
+  display: flex;
+}
+
+.date {
+  color: #595959;
+}
+.subscribe {
+  color: #4683d9;
+  font-size: 14px;
+  min-width: 26px;
+  height: 42px;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-transform: none;
+}

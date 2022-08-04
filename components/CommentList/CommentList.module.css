@@ -1,0 +1,31 @@
+.commentlist__container {
+  width: 1000px;
+  margin: 0 auto;
+  background-color: #fff;
+  /* border-right: 1px solid rgb(205, 197, 197);
+    border-left: 1px solid rgb(205, 197, 197);
+    border-bottom: 1px solid rgb(205, 197, 197); */
+  border-radius: 10px;
+}
+.commentlist__wrapper {
+  margin: 0 auto;
+  width: 600px;
+}
+
+.commentlist__header {
+  padding: 30px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.commentlist__number {
+  font-family: Roboto;
+  font-size: 20px;
+  line-height: 1.4em;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-right: auto;
+}

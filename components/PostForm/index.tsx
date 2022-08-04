@@ -3,7 +3,7 @@ import Input from "@mui/material/Input";
 import Button from "@mui/material/Button";
 import TextField from "@mui/material/TextField";
 import dynamic from "next/dynamic";
-import Form from "./Form";
+import Form from "../Form";
 import styles from "./Form.module.css";
 
 // const Editor = dynamic<{

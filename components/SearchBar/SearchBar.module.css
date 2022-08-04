@@ -1,0 +1,28 @@
+.wrapper {
+  border-radius: 9px;
+  background-color: #ffdee5;
+  border: 1px solid rgba(0, 0, 0, 0.03);
+  width: 350px;
+  height: 40px;
+  padding-left: 10px;
+  transition: all 0.3s ease;
+}
+.wrapper:hover {
+  border-radius: 9px;
+  background-color: #ffffff;
+  border: 1px solid #ff0037;
+}
+
+.input {
+  width: 100%;
+  height: 100%;
+}
+
+.input:after,
+.input:before {
+  display: none;
+}
+
+.focused {
+  border: 4px solid #ff0037;
+}

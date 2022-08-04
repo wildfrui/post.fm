@@ -1,0 +1,35 @@
+.menu {
+  padding: 20px;
+  height: 100%;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 65px; /* Stay at the top */
+  left: 0;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 300px;
+}
+
+.link {
+  display: flex;
+  cursor: pointer;
+  min-width: 220px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.text {
+  padding-left: 10px;
+  text-decoration: none;
+  font-family: "Roboto";
+  color: black;
+  font-size: 18px;
+}
+
+.link:hover {
+  background-color: #fcfcfc;
+}
